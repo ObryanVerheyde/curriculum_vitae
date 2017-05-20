@@ -64,7 +64,7 @@ a:hover {
 }
 
 .twitter-follow-button {
-  
+
 }
 
 
@@ -347,6 +347,15 @@ ul.list-check li::before {
 	height: 100%;
 }
 
+#canvas
+{
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	z-index: 0.5;
+}
+
 .intro {
 	position: absolute;
 	width: 100%;
@@ -373,6 +382,7 @@ ul.list-check li::before {
 .intro p{
 	color: #f7f7f7;
 	margin-bottom: 40px;
+  font-weight: bolder;
 }
 
 .intro-sub {
